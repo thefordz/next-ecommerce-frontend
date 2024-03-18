@@ -8,7 +8,7 @@ const SignUpPage = () => {
   return (
     <div className="w-full h-[calc(100vh-70px)] py-5 flex flex-col items-center justify-center">
       <h1 className="text-4xl mb-5">สมัครสมาชิก</h1>
-      <div className="w-full h-full">
+      <div className="w-full h-full flex items-center justify-center">
         <div className="grid w-full max-w-sm items-center gap-4">
           <Label htmlFor="email">Email</Label>
           <Input type="email" id="email" placeholder="Email" />
@@ -19,7 +19,7 @@ const SignUpPage = () => {
           <Input type="password" id="password" placeholder="Confirm Password" />
           <Button>สมัครสมาชิก</Button>
           <span className="text-center">หรือ</span>
-          <Link href="/signup">
+          <Link href="/signin">
             <Button className="w-full">เข้าสู่ระบบ</Button>
           </Link>
         </div>

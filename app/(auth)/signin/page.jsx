@@ -8,7 +8,7 @@ const SignInPage = () => {
   return (
     <div className="w-full h-[calc(100vh-70px)] py-5 flex flex-col items-center justify-center">
       <h1 className="text-4xl mb-5">เข้าสู่ระบบ</h1>
-      <div className="w-full h-full">
+      <div className="w-full h-full flex items-center justify-center">
         <div className="grid w-full max-w-sm items-center gap-4">
           <Label htmlFor="email">Email</Label>
           <Input type="email" id="email" placeholder="Email" />
